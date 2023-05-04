@@ -2,11 +2,13 @@ img{
     height: 650px;
     width: auto;
 }
-.carousel{
+.carousel-item{
     position: relative;
-    z-index: 8;
+    text-align: center;
+    color: white;    
 }
 .carousel-text{
     position: absolute;
-    z-index: 1;
+    bottom: 50%;
+    left: 26px;
 }
