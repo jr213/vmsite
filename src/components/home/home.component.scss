@@ -11,4 +11,18 @@ img{
     position: absolute;
     bottom: 50%;
     left: 26px;
+    
+}
+.pillContainer{
+    width: 60vw;
+    height: 35vh;
+    background-color: #0092CB;
+    border-radius: 130px;
+    display: flex;
+    align-items: center;
+}
+#pillText{
+    width: 22vw;
+    margin-left: 45px;
+    margin-right: 40px;
 }
