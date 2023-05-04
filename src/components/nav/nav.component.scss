@@ -1,0 +1,73 @@
+.navbar, .topContainer{
+    position: fixed !important;
+    z-index: 1;
+}
+.navbar{
+    background-color: white;
+    border-bottom: .5px solid gray;
+    
+}
+.topContainer{
+    background-color: #002B48;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+}
+#logo{
+    margin-left: 13px;
+    height: 100px;
+    width: 240px;
+}
+.nav-link{
+    color: #002B48;
+    margin-left: 12px;
+}
+.nav-link:hover{
+    text-decoration: underline #002B48;
+}
+.navBtn{
+    background-color: #0092CB;
+    border: none;
+    color:  white !important;
+    padding: 8px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 4px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.topBar{
+    height: 40px;
+    background-color: #002B48;
+    color: white;
+    display: flex;
+    justify-content: end;
+    
+}
+.topLink{
+    margin-right: 52px;
+    color: white;
+    text-decoration: none;
+}
+.phone{
+    margin-right: 2px; 
+    margin-bottom: 0px  
+}
+.phoneNum{
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+.phoneNum:hover{
+    text-decoration: underline;
+}
+.material-icons{
+   margin-top: 5px;
+
+    
+}
+

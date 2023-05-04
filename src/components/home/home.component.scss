@@ -1,0 +1,12 @@
+img{
+    height: 650px;
+    width: auto;
+}
+.carousel{
+    position: relative;
+    z-index: 8;
+}
+.carousel-text{
+    position: absolute;
+    z-index: 1;
+}

@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~normalize.css/normalize.css';
+@import 'bootstrap/scss/bootstrap';
+@import 'material-icons/iconfont/material-icons.css';
+* {
+    font-family: Geneva, Tahoma, sans-serif;
+    }
+
