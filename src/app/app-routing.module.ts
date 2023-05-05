@@ -10,7 +10,7 @@ import { RewardsComponent } from '../components/rewards/rewards.component';
 import { ServicesComponent } from '../components/services/services.component';
 import { StoreLocatorComponent } from '../components/store-locator/store-locator.component';
 import { FindLocationsComponent } from '../components/find-locations/find-locations.component';
-
+import { FooterComponent } from 'src/components/footer/footer.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -23,6 +23,7 @@ const routes: Routes = [
   {path: 'services', component: ServicesComponent},
   {path: 'store-locator', component: StoreLocatorComponent},
   {path: 'find-locations', component: FindLocationsComponent},
+  {path: 'footer', component: FooterComponent}
 
 ];
 

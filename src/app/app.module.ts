@@ -36,7 +36,7 @@ import { FindLocationsComponent } from '../components/find-locations/find-locati
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

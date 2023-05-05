@@ -13,16 +13,53 @@ img{
     left: 26px;
     
 }
+.containerContainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
 .pillContainer{
-    width: 60vw;
-    height: 35vh;
+    width: 95vw;
+    height: 182px;
+    position: absolute;
+    top: 670px;
     background-color: #0092CB;
     border-radius: 130px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 #pillText{
-    width: 22vw;
-    margin-left: 45px;
-    margin-right: 40px;
+    width: 26vw;
+    left: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+    word-wrap: normal;
+    line-height: 49px;
+    font-size: 30px;
+    font-family: montserrat;
+}
+#searchStore{
+    width: 522px;
+    height: 11vh;
+    margin-right: 55px;
+    border-radius: 100px;
+    border: none;
+    position: relative;
+}
+#pillBtn{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 100px;
+    border: none;
+    background-color: #002B48;
+    color: white;
+    position: absolute;
+    margin-left: 397px;
+}
+.inputAndBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
