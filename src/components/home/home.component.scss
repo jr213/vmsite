@@ -5,12 +5,12 @@
 .carousel-item{
     position: relative;
     text-align: center;
-    color: white;    
+    color: red;    
 }
 .carousel-text{
     position: absolute;
     bottom: 50%;
-    left: 26px;
+    margin-left: 55px;
     
 }
 .containerContainer{
@@ -19,10 +19,10 @@
     justify-content: center;
 }
 .pillContainer{
-    width: 95vw;
-    height: 182px;
+    width: 75vw;
+    height: 168px;
     position: absolute;
-    top: 670px;
+    margin-top: -59px;
     background-color: #0092CB;
     border-radius: 130px;
     display: flex;
@@ -31,7 +31,6 @@
 }
 #pillText{
     width: 26vw;
-    left: 20px;
     margin-left: 100px;
     margin-right: 100px;
     color: white;
@@ -103,8 +102,8 @@
 .cardOne{
     width: 376px;
     height: 475px;
-    top: 1200px;
-    left: 354px;
+    margin-right: 824px;
+    margin-top: -141px;
     position: absolute;
     border-radius: 12px;
     font-family: montserrat;
@@ -114,7 +113,7 @@
     height: 475px;
     position: absolute;
     margin: 0px 70px 0px 70px;
-    top: 1200px;
+    margin-top: -141px;
     border-radius: 12px;
     font-family: montserrat;
 }
@@ -122,8 +121,8 @@
     width: 376px;
     height: 475px;
     position: absolute;
-    top: 1200px;
-    right: 352px;
+    margin-right: -824px;
+    margin-top: -141px;
     border-radius: 12px;
     font-family: montserrat;
 }
@@ -141,7 +140,7 @@
     color: white;
     position: absolute;
     margin-left: 47%;
-    top: 1721px;
+    margin-top: -27px;
     z-index: 1;
 }
 .vmMessage{
