@@ -19,7 +19,7 @@
     justify-content: center;
 }
 .pillContainer{
-    width: 75vw;
+    width: 80vw;
     height: 168px;
     position: absolute;
     margin-top: -59px;
@@ -144,7 +144,47 @@
     z-index: 1;
 }
 .vmMessage{
-    background-color: #fafafa;
+    background-color: #e4e4e4;
     height: 600px;
-    margin-top: 0px;
+    margin-top: -16px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 58px 245px;
+    position: relative;
+}
+#msgImg{
+    margin-left: 120px;
+    margin-right: 50px;
+}
+.msgText{
+    padding-top: 70px;
+    font-family: montserrat;
+    color: #002B48;
+}
+#msgHeading{
+    font-size: 46px;
+    line-height: 50px;
+    font-weight: 900;
+}
+.msgInfo{
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 514px;
+    height: 93px;
+    margin-top: 460px;
+    margin-left: -602px;
+    border-radius: 12px;
+}
+#founded{
+
+    line-height: 1px;
+}
+#employees{
+    
+    line-height: 1px;
 }
