@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser'; 
 import { AppRoutingModule } from './app-routing.module';
+import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { NavComponent } from '../components/nav/nav.component';
 import { FooterComponent } from '../components/footer/footer.component';
@@ -37,6 +38,7 @@ import { FindLocationsComponent } from '../components/find-locations/find-locati
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
