@@ -1,3 +1,6 @@
+<!---------------------------------------------------------------------------->
+<!------------------------------Landing Images-------------------------------->
+<!---------------------------------------------------------------------------->
 <div id="carouselExampleIndicators" class="carousel slide"  data-interval="8000" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
@@ -5,7 +8,7 @@
     </ol>
     <div class="carousel-inner ">
       <div class="carousel-item active">
-        <img class="d-block carouselImg w-100"  src="https://vanmarckeplumbingsupply.com/wp-content/uploads/2023/02/Header-Image-Row-Of-Products-2.png" alt="Van Marcke">
+        <img class="d-block carouselImg w-100" src="https://vanmarckeplumbingsupply.com/wp-content/uploads/2023/02/Header-Image-Row-Of-Products-2.png" alt="Van Marcke">
         <h1 class="carousel-text">Milwaukee</h1>        
 
       </div>
@@ -42,9 +45,9 @@
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
+<!---------------------------------------------------------------------------->
+<!-----------------------------------Services--------------------------------->
+<!---------------------------------------------------------------------------->
   <div class="servicesBox">
     <div class="ourServicesContain">
         <h1>Our Services</h1>
@@ -84,8 +87,9 @@
             <h2>1929</h2>
             <p>Founded</p>
           </div>
-          <div>
-            <h2 id="employees">1400</h2>
+          <hr>
+          <div id="employees">
+            <h2>1400</h2>
             <p>Employees</p>
           </div>
         </div>
@@ -95,12 +99,126 @@
         <p>Van Marcke Plumbing Supply is a wholesale plumbing store. We have many convenient locations to make purchasing your plumbing repair parts , HVAC equipment, water treatment products, water heaters & other needed plumbing products as convenient and as simple as possible. With over 6,000 brand name products in stock including our additional services like truck and shop stocking services, you are guaranteed to save time and money each time you choose to get your plumbing products here at Van Marcke.</p>
       </div>
     </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+<!---------------------------------------------------------------------------->
+<!--------------------------------Line Card----------------------------------->
+<!---------------------------------------------------------------------------->
+<div class="lineCard">
+  <div class="lineCardContainer">
+    <div id="lineTitle">
+      <h1>EVERYTHING YOU NEED TO COMPLETE YOUR NEXT PLUMBING JOB</h1>
+    </div>
+    <div id="lineDesc"> 
+      <p>We carry products from the leading suppliers of tools, fittings, water heaters, vitreous china, and just about every other plumbing product you can think of at a extremely competitive price. We have well over 6,000 different plumbing products in stock at over 25 locations serving Arizona, Nevada & Texas.</p>
+      <button id="lineBtn">View Line Card</button>
+    </div>
+  </div>
+  <div class="logoCards" >
+    <div class="logoImg" *ngFor="let list of brands">
+      <img id="logoImg" src="{{list.url}}" alt="{{list.name}}">
+    </div> 
+  </div>
+</div>
+<!---------------------------------------------------------------------------->
+<!----------------------------Find Local Store-------------------------------->
+<!---------------------------------------------------------------------------->
+<div class="findLocalStore">
+  <div class="findLocalContainer">
+    <div>
+      <h1>FIND THE LOCAL PLUMBING STORE NEAR YOU.</h1>
+    </div>
+    <div> 
+      <p>WITH OVER 20 CONVENIENT LOCATIONS THROUGHOUT ARIZONA, NEVADA AND TEXAS, VAN MARCKE CAN SAVE YOU TIME AND MONEY WHEN STOCKING UP FOR YOUR NEXT PLUMBING REPAIR OR INSTALLATION JOB. SEARCH HERE FOR ONE OF OUR FULLY STOCKED PLUMBING PARTS STORES NEAREST YOU!</p>
+    </div>
+    <div>
+      <input id="findLocalInput" placeholder="Enter Zip Code or City and State">
+      <div>
+        <button id="findLocalBtn"><i class="material-icons">search</i></button>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------------------------------------------------------------------->
+<!------------------------------Testimonials---------------------------------->
+<!---------------------------------------------------------------------------->
+<div >
+  <div class="testContainer">
+    <div class="testLeft">
+      <h1>HERE IS HOW WE HAVE HELPED OUR CUSTOMERS</h1>
+      <button id="testBtn">View Testimonials</button>
+    </div>
+    <div class="testRight">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="testimonial active">
+            <p>"Van Marcke helped Parker and Son's increase brand awareness and promote repeat business by supplying ball valves that included their company logo and contact information."</p>
+          </div>
+          <div class="testimonial">
+            <p>"Lawson Family Plumbing is a successful plumbing company based in Gilbert, AZ. Van Marcke assisted in setting up and stocking their warehouse, which has helped save them time and money not having to visit a plumbing parts store for every job."</p>
+          </div>
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------------------------------------------------------------------->
+<!------------------------------Bonus Rewards--------------------------------->
+<!---------------------------------------------------------------------------->
+<div class="bonusRewards">
+  <div class="rewardsContainer">
+    <h2>Bonus Rewards</h2>
+  </div>
+    <div class="itemContainer">
+      <div class="bonusItem">
+        <div id="bonusImg">
+          <img  src="	https://vanmarckeplumbingsupply.com/wp-content/uploads/2022/02/Group-33.svg">
+        </div>
+        <h3>SIGN UP</h3>
+        <p>Sign up for our security system quickly and easily with one simple form.</p>
+      </div>
+      <div class="bonusItem">
+        <div id="bonusImg">
+          <img  src="	https://vanmarckeplumbingsupply.com/wp-content/uploads/2022/02/Group-34.svg">
+        </div>
+        <h3>EARN</h3>
+        <p>Earn points for every $150 that you spend on a single order. It's that easy.</p>
+      </div>
+      <div class="bonusItem">
+        <div id="bonusImg">
+          <img  src="  https://vanmarckeplumbingsupply.com/wp-content/uploads/2022/02/Group-37.svg">
+        </div>
+        <h3>REDEEM</h3>
+        <p>Redeem all the points you earn on gift cards, or use your points towards products in our store.</p>
+      </div>
+    </div>
+    <div class="textContainer">
+      <div class="leftText">
+        <h1>Reward Yourself</h1>
+        <h5>Take advantage of our excellent Rewards Program. Earn points to redeem for products or gift cards when you purchase plumbing products at any Van Marcke plumbing store location.</h5>
+      </div>
+      <div class="rightText">
+        <p>It means so much for us to have loyal customers who enjoy the value we provide on a daily basis. Our rewards program is just one of many great things we do to give something back to you for your patronage with Van Marcke Trade Supply. We greatly appreciate your friendship with Van Marcke.
+          <br>
+          <br>
+          For more details on our Bonus Rewards visit our Bonus Rewards Page or you can go ahead and sign up below, all you need to do is follow these 3 simple steps.</p>
+          <button id="rewardsBtn">Sign Up Now!</button>
+      </div>
+    </div>
+</div>

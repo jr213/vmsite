@@ -55,7 +55,7 @@
     background-color: #002B48;
     color: white;
     position: absolute;
-    margin-left: 363px;
+    margin-left: 392px;
 }
 .inputAndBtn{
     display: flex;
@@ -97,7 +97,7 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-bottom: 400px;
+    margin-bottom: 429px;
 }
 .cardOne{
     width: 376px;
@@ -150,12 +150,10 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 58px 245px;
     position: relative;
 }
 #msgImg{
-    margin-left: 120px;
-    margin-right: 50px;
+    margin: 50px;
 }
 .msgText{
     padding-top: 70px;
@@ -163,7 +161,6 @@
     color: #002B48;
 }
 #msgHeading{
-    font-size: 46px;
     line-height: 50px;
     font-weight: 900;
 }
@@ -176,15 +173,148 @@
     align-items: center;
     width: 514px;
     height: 93px;
-    margin-top: 460px;
+    margin-top: 485px;
     margin-left: -602px;
     border-radius: 12px;
 }
 #founded{
-
+    
     line-height: 1px;
 }
 #employees{
-    
     line-height: 1px;
+}
+.bonusRewards{
+    background-color: #002B48;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: -24px;
+}
+.rewardsContainer{
+    display: flex;
+    justify-content: center;
+}
+.itemContainer{
+    display: flex;
+    justify-content: center;
+}
+.bonusItem{
+    width: 376px;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+    color: #002B48;
+    padding: 30px;
+    border-radius: 12px;
+}
+.bonusRewards p{
+    font-family:'roboto';
+}
+.textContainer{
+    display: flex;
+
+}
+#bonusImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    padding: 30px;
+    background-color: #E4F3FF;
+    border-radius: 60px;
+}
+.leftText{
+    width: 40vw;
+    margin-left: 40px;    
+}
+.rightText{
+    width: 60vw;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#rewardsBtn{
+    width: 136px;
+    height: 53px;
+    border-radius: 100px;
+    border: none;
+    background-color: #0092CB;
+    color: white;
+}
+.findLocalStore{
+    width: auto;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://vanmarckeplumbingsupply.com/wp-content/uploads/2022/06/Group-182-min.jpg);
+    padding: 50px;
+    color: #002B48;
+}
+.findLocalContainer{
+    margin-left: 460px;
+    
+}
+#findLocalInput{
+    width: 450px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 15px;
+    position: relative;
+}
+#findLocalBtn{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 33px;
+    background-color: #0092CB;
+    color: white;
+    position: absolute;
+    margin-top: -57px;
+    margin-left: 392px;
+}
+.lineCardContainer{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #002B48;
+}
+#lineTitle{
+    margin: 92px;
+    font-size: 46px;
+}
+#lineDesc{
+    margin: 100px;
+}
+#lineBtn{
+    width: 15vw;
+    height: 10vh;
+    border-radius: 100px;
+    border: none;
+    background-color: #0092CB;
+    color: white;
+}
+.logoCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 14px;
+}
+.logoImg{
+    display: flex;
+    flex-direction: row;
+}
+.testContainer{
+    
 }
