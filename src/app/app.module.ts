@@ -24,6 +24,10 @@ import { BusinessFormsComponent } from './business-forms/business-forms.componen
 import { ServiceRequestComponent } from './service-request/service-request.component';
 import { SalesContactComponent } from './sales-contact/sales-contact.component';
 import { AfterHoursComponent } from './after-hours/after-hours.component';
+import { VendorAppComponent } from './vendor-app/vendor-app.component';
+import { GenRegComponent } from './gen-reg/gen-reg.component';
+import { PressroomComponent } from './pressroom/pressroom.component';
+import { CreditAppComponent } from './credit-app/credit-app.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +53,10 @@ import { AfterHoursComponent } from './after-hours/after-hours.component';
     ServiceRequestComponent,
     SalesContactComponent,
     AfterHoursComponent,
+    VendorAppComponent,
+    GenRegComponent,
+    PressroomComponent,
+    CreditAppComponent,
 
   ],
   imports: [

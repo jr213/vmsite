@@ -20,6 +20,10 @@ import { SpecialsComponent } from './specials/specials.component';
 import { ServiceRequestComponent } from './service-request/service-request.component';
 import { StoreLunchComponent } from './store-lunch/store-lunch.component';
 import { TradeShowComponent } from './trade-show/trade-show.component';
+import { GenRegComponent } from './gen-reg/gen-reg.component';
+import { VendorAppComponent } from './vendor-app/vendor-app.component';
+import { CreditAppComponent } from './credit-app/credit-app.component';
+import { PressroomComponent } from './pressroom/pressroom.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -41,9 +45,11 @@ const routes: Routes = [
   {path: 'specials', component: SpecialsComponent},
   {path: 'service-request', component: ServiceRequestComponent},
   {path: 'store-lunch', component: StoreLunchComponent},
-  {path: 'trade-show', component: TradeShowComponent}
-  
-
+  {path: 'trade-show', component: TradeShowComponent},
+  {path: 'gen-reg', component: GenRegComponent},
+  {path: 'vendor-app', component: VendorAppComponent},
+  {path: 'credit-app', component: CreditAppComponent},
+  {path: 'pressroom', component: PressroomComponent}
 ];
 
 @NgModule({
