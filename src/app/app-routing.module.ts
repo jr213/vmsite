@@ -12,6 +12,14 @@ import { StoreLocatorComponent } from '../components/store-locator/store-locator
 import { FindLocationsComponent } from '../components/find-locations/find-locations.component';
 import { FooterComponent } from 'src/components/footer/footer.component';
 import { LineCardComponent } from 'src/components/line-card/line-card.component';
+import { AfterHoursComponent } from './after-hours/after-hours.component';
+import { BusinessFormsComponent } from './business-forms/business-forms.component';
+import { EventsComponent } from './events/events.component';
+import { SalesContactComponent } from './sales-contact/sales-contact.component';
+import { SpecialsComponent } from './specials/specials.component';
+import { ServiceRequestComponent } from './service-request/service-request.component';
+import { StoreLunchComponent } from './store-lunch/store-lunch.component';
+import { TradeShowComponent } from './trade-show/trade-show.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -25,7 +33,16 @@ const routes: Routes = [
   {path: 'services', component: ServicesComponent},
   {path: 'store-locator', component: StoreLocatorComponent},
   {path: 'find-locations', component: FindLocationsComponent},
-  {path: 'footer', component: FooterComponent}
+  {path: 'footer', component: FooterComponent},
+  {path: 'after-hours', component: AfterHoursComponent},
+  {path: 'business-forms', component: BusinessFormsComponent},
+  {path: 'events', component: EventsComponent},
+  {path: 'sales-contact', component: SalesContactComponent},
+  {path: 'specials', component: SpecialsComponent},
+  {path: 'service-request', component: ServiceRequestComponent},
+  {path: 'store-lunch', component: StoreLunchComponent},
+  {path: 'trade-show', component: TradeShowComponent}
+  
 
 ];
 

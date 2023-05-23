@@ -16,6 +16,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from '../components/home/home.component';
 import { FindLocationsComponent } from '../components/find-locations/find-locations.component';
 import { LineCardComponent } from '../components/line-card/line-card.component';
+import { StoreLunchComponent } from './store-lunch/store-lunch.component';
+import { EventsComponent } from './events/events.component';
+import { SpecialsComponent } from './specials/specials.component';
+import { TradeShowComponent } from './trade-show/trade-show.component';
+import { BusinessFormsComponent } from './business-forms/business-forms.component';
+import { ServiceRequestComponent } from './service-request/service-request.component';
+import { SalesContactComponent } from './sales-contact/sales-contact.component';
+import { AfterHoursComponent } from './after-hours/after-hours.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +41,14 @@ import { LineCardComponent } from '../components/line-card/line-card.component';
     HomeComponent,
     FindLocationsComponent,
     LineCardComponent,
+    StoreLunchComponent,
+    EventsComponent,
+    SpecialsComponent,
+    TradeShowComponent,
+    BusinessFormsComponent,
+    ServiceRequestComponent,
+    SalesContactComponent,
+    AfterHoursComponent,
 
   ],
   imports: [
