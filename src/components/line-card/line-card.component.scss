@@ -1,0 +1,47 @@
+#pageTitle{
+    font-size: 46px;
+    color: #002b48;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#title{
+    width: 700px;
+}
+.wholeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+}
+a{
+    font-family: roboto;
+    text-decoration: none;
+    color: #0092CB;
+}
+.cardContainer{
+    width: 30vw;
+}
+
+.lineCard{
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    height: 67vh;
+    padding: 15px;
+    box-shadow: 0px 0px 10px 0px #f3f3f3;
+    position: relative;
+}
+.cardTitle{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#seahorse{
+    opacity: .1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

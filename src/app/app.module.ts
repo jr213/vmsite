@@ -15,6 +15,7 @@ import { ContactUsComponent } from '../components/contact-us/contact-us.componen
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from '../components/home/home.component';
 import { FindLocationsComponent } from '../components/find-locations/find-locations.component';
+import { LineCardComponent } from '../components/line-card/line-card.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { FindLocationsComponent } from '../components/find-locations/find-locati
     ContactUsComponent,
     HomeComponent,
     FindLocationsComponent,
+    LineCardComponent,
 
   ],
   imports: [
