@@ -12,18 +12,18 @@ import { StoreLocatorComponent } from '../components/store-locator/store-locator
 import { FindLocationsComponent } from '../components/find-locations/find-locations.component';
 import { FooterComponent } from 'src/components/footer/footer.component';
 import { LineCardComponent } from 'src/components/line-card/line-card.component';
-import { AfterHoursComponent } from './after-hours/after-hours.component';
-import { BusinessFormsComponent } from './business-forms/business-forms.component';
-import { EventsComponent } from './events/events.component';
-import { SalesContactComponent } from './sales-contact/sales-contact.component';
-import { SpecialsComponent } from './specials/specials.component';
-import { ServiceRequestComponent } from './service-request/service-request.component';
-import { StoreLunchComponent } from './store-lunch/store-lunch.component';
-import { TradeShowComponent } from './trade-show/trade-show.component';
-import { GenRegComponent } from './gen-reg/gen-reg.component';
-import { VendorAppComponent } from './vendor-app/vendor-app.component';
-import { CreditAppComponent } from './credit-app/credit-app.component';
-import { PressroomComponent } from './pressroom/pressroom.component';
+import { AfterHoursComponent } from '../components/after-hours/after-hours.component';
+import { BusinessFormsComponent } from '../components/business-forms/business-forms.component';
+import { EventsComponent } from '../components/events/events.component';
+import { SalesContactComponent } from '../components/sales-contact/sales-contact.component';
+import { SpecialsComponent } from '../components/specials/specials.component';
+import { ServiceRequestComponent } from '../components/service-request/service-request.component';
+import { StoreLunchComponent } from '../components/store-lunch/store-lunch.component';
+import { TradeShowComponent } from '../components/trade-show/trade-show.component';
+import { GenRegComponent } from '../components/gen-reg/gen-reg.component';
+import { VendorAppComponent } from '../components/vendor-app/vendor-app.component';
+import { CreditAppComponent } from '../components/credit-app/credit-app.component';
+import { PressroomComponent } from '../components/pressroom/pressroom.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
