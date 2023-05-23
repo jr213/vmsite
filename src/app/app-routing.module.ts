@@ -11,6 +11,7 @@ import { ServicesComponent } from '../components/services/services.component';
 import { StoreLocatorComponent } from '../components/store-locator/store-locator.component';
 import { FindLocationsComponent } from '../components/find-locations/find-locations.component';
 import { FooterComponent } from 'src/components/footer/footer.component';
+import { LineCardComponent } from 'src/components/line-card/line-card.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path: 'contact-us', component: ContactUsComponent},
   {path: 'pay-online', component: PayOnlineComponent},
   {path: 'resources', component: ResourcesComponent},
+  {path: 'line-card', component: LineCardComponent},
   {path: 'rewards', component: RewardsComponent},
   {path: 'services', component: ServicesComponent},
   {path: 'store-locator', component: StoreLocatorComponent},

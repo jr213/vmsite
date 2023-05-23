@@ -1,0 +1,56 @@
+.pageHeader{
+    background-image: url(https://vanmarckeplumbingsupply.com/wp-content/uploads/2023/04/Raintree-2mb-17-Cropped.jpg);
+    height: 505px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    text-align: center;
+    color: white;
+    font-size: 49px;
+    text-shadow: 3px 3px 8px black;
+}
+.careerInsert{
+    height: 900px;
+}
+.midText{
+    height: 250px;
+    background-color: #00385a;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bigMid{
+    font-size: 46px;
+    margin: 0px 100px
+}
+.weTextBox{
+    color: #00385a;
+    height: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 0px 125px;
+
+}
+#weText{
+    font-size: 55px;
+    
+}
+img{
+    height: 320px;
+    width: 480px;
+    border-radius: 25px;
+}
+.imgContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 85px;
+    
+}
